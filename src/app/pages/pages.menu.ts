@@ -15,27 +15,57 @@ export const PAGES_MENU = [
         }
       },
       {
-        path: 'editors',
+        path: 'forms',
         data: {
           menu: {
-            title: 'Editors',
-            icon: 'ion-edit',
+            title: 'Users',
+            icon: 'ion-person',
             selected: false,
             expanded: false,
-            order: 100,
+            order: 400,
           }
         },
         children: [
+          // {
+          //   path: 'inputs',
+          //   data: {
+          //     menu: {
+          //       title: 'Form Inputs',
+          //     }
+          //   }
+          // },
           {
-            path: 'ckeditor',
+            path: 'layouts',
             data: {
               menu: {
-                title: 'CKEditor',
+                title: 'Add Users',
               }
             }
           }
         ]
       },
+      // {
+      //   path: 'editors',
+      //   data: {
+      //     menu: {
+      //       title: 'Editors',
+      //       icon: 'ion-edit',
+      //       selected: false,
+      //       expanded: false,
+      //       order: 100,
+      //     }
+      //   },
+      //   children: [
+      //     {
+      //       path: 'ckeditor',
+      //       data: {
+      //         menu: {
+      //           title: 'CKEditor',
+      //         }
+      //       }
+      //     }
+      //   ]
+      // },
       {
         path: 'components',
         data: {
@@ -134,36 +164,36 @@ export const PAGES_MENU = [
           },
         ]
       },
-      {
-        path: 'forms',
-        data: {
-          menu: {
-            title: 'Form Elements',
-            icon: 'ion-compose',
-            selected: false,
-            expanded: false,
-            order: 400,
-          }
-        },
-        children: [
-          {
-            path: 'inputs',
-            data: {
-              menu: {
-                title: 'Form Inputs',
-              }
-            }
-          },
-          {
-            path: 'layouts',
-            data: {
-              menu: {
-                title: 'Form Layouts',
-              }
-            }
-          }
-        ]
-      },
+      // {
+      //   path: 'forms',
+      //   data: {
+      //     menu: {
+      //       title: 'Form Elements',
+      //       icon: 'ion-compose',
+      //       selected: false,
+      //       expanded: false,
+      //       order: 400,
+      //     }
+      //   },
+      //   children: [
+      //     {
+      //       path: 'inputs',
+      //       data: {
+      //         menu: {
+      //           title: 'Form Inputs',
+      //         }
+      //       }
+      //     },
+      //     {
+      //       path: 'layouts',
+      //       data: {
+      //         menu: {
+      //           title: 'Form Layouts',
+      //         }
+      //       }
+      //     }
+      //   ]
+      // },
       {
         path: 'tables',
         data: {

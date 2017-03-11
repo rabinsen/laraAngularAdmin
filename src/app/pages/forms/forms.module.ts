@@ -23,6 +23,7 @@ import { HorizontalForm } from './components/layouts/components/horizontalForm';
 import { BasicForm } from './components/layouts/components/basicForm';
 import { WithoutLabelsForm } from './components/layouts/components/withoutLabelsForm';
 
+
 @NgModule({
   imports: [
     CommonModule,
@@ -45,8 +46,10 @@ import { WithoutLabelsForm } from './components/layouts/components/withoutLabels
     BlockForm,
     HorizontalForm,
     BasicForm,
-    WithoutLabelsForm
-  ]
+    WithoutLabelsForm,
+
+  ],
+
 })
 export class FormsModule {
 }
